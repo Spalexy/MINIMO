@@ -7,7 +7,7 @@
     /*border: 1px solid black;*/
     margin: auto;
     width: 1200px;
-    min-height: 5026px;
+    min-height: 2000px;
 }
 
 .header {
@@ -17,3 +17,17 @@
     height: 95px;
 }
 
+.menu {
+    float: right; /* Выравнивание по правому краю */
+    font-size: 14pt;
+    font-weight: normal;
+    color: #626262;
+}
+
+.menu ul {
+    margin: 0px;
+}
+
+.menu ul li {
+    display: inline;
+}
