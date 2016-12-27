@@ -1,0 +1,19 @@
+﻿body {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.container{
+    /*border: 1px solid black;*/
+    margin: auto;
+    width: 1200px;
+    min-height: 5026px;
+}
+
+.header {
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 1062px;
+    height: 95px;
+}
+
