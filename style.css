@@ -1,4 +1,9 @@
-﻿body {
+﻿@font-face {
+    font-family: PlayfairDisplay; /* Гарнитура шрифта */
+    src: url(fonts/PlayfairDisplay-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
     margin-left: 0px;
     margin-top: 0px;
 }
@@ -31,3 +36,31 @@
 .menu ul li {
     display: inline;
 }
+
+.firstpost {
+    clear: both;
+    width: 1062;
+    margin-left: 80px;
+}
+
+.firstpost div img {
+    margin-left: -80px;
+    margin-bottom: 70px;
+}
+
+.post h1 {
+    margin-top: 0;
+}
+
+.pagelink {
+    clear: both;
+    padding: 30px 0 30px 0;
+    color: #626262;
+}
+
+.post {
+    width: 900px;
+    font-family: "PlayfairDisplay";
+    color: #626262;
+}
+
